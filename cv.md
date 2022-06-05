@@ -6,7 +6,7 @@ I am purposeful and diligent, I love to learn, so I have a good chance of becomi
 ## Skills
 * Javascript
 * Typescript
-* Reactor
+* React
 * HTML
 * CSS
 ## Education
