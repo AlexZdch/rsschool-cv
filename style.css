@@ -1,5 +1,7 @@
 body{
     background-color: #f7f7f7;
+    padding: 0;
+    margin: 0;
 }
 * {
     box-sizing: border-box;
@@ -103,6 +105,7 @@ body{
     color: #5d5d5d;
 }
 
+
 footer{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -124,3 +127,86 @@ footer span{
     display: block;
     margin-top: 10px;
 }    
+
+.my-project{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.project-description{
+    padding: 10px;
+    color: #000;
+}
+
+.my-video{
+    padding: 0 20px 0 20px;
+}
+
+iframe {
+
+    width: 100%;
+    border-width: 0;
+    }
+
+@media screen and (max-width: 750px) {
+      
+    .div_intro{
+        margin: 0;
+        width: 100%;
+    }
+    .wrapper{
+        width: 100%;
+    }
+
+    .left{
+        width: 43%;
+    }
+
+    .right{
+        width: 57%;
+    }
+    .left figure{
+        height: auto;
+    }
+    .left figure img{
+        width: 100%;
+        height: auto;
+    }
+}   
+
+
+@media screen and (max-width: 630px) {
+    .my-project{
+        flex-wrap: wrap;
+    }
+    .project-description{
+        padding: 0;
+        color: #000;
+    }
+
+}   
+
+@media screen and (max-width: 520px) {
+      
+    .wrapper{
+        display: block;
+    }
+
+    .div_intro{
+        display: block;
+    }
+
+    .left{
+        width: 100%;
+    }
+
+    .right{
+        width: 100%;
+    }
+    .my-project{
+        flex-wrap: nowrap;
+    }
+    .project-description{
+        padding: 10px;
+    }
+}
