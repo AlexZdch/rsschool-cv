@@ -1,97 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css"> 
-    <link rel="stylesheet" href="highlight/atom-one-dark.min.css">
-    <script src="highlight/highlight.min.js"></script>
-    <script>hljs.highlightAll();</script>
-    <title>CV Alex Zdanovich</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="/highlight/atom-one-dark.min.css">
+  <script src="/highlight/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+  <title>CV AlexZdch</title>
 </head>
 <body>
-    <div class="div_intro">
-        <div class="wrapper">
-            <div class="left">
-                <figure>
-                    <img src="images/avatar.jpg" width="300" height="300" alt="Avatar" title="It's me">
-                </figure>
-                <h2>About me</h2>
-                <aside>
-                    I am a beginner programmer who is studying at RS School. 
-                    I have no development experience, but my goal is to become a good developer.
-                    I am purposeful and diligent, I love to learn, so I have a good chance of becoming 
-                    a good programmer.
-                </aside> 
-                <h2>My contact</h2>
-                <div class="contact">                    
+  <div class="div_intro">
+      <div class="wrapper">
+        <div class="left">
+          <figure>
+            <img src="images/avatar.jpg" width="300" height="300" alt="Avatar" title="It's me">
+            </figure>
+            <h2>About me</h2>
+            <aside>
+              I am a beginner programmer who is studying at RS School.
+              I have no development experience, but my goal is to become a good developer.
+              I am purposeful and diligent, I love to learn, so I have a good chance of becoming 
+              a good programmer.
+            </aside>
+            <h2>My contact</h2>
+            <div class="contact">
+              <ul>
+                <li><span>email:</span>alexzdch2007@tut.by</li>
+                <li><span>social:</span> vk.com/heptohedron</li>
+              </ul>
+            </div>
+            <h2>My video</h2>
+            <div class = "my-video">
+            </div>
+        </div>
+          <div class="right">
+            <header>
+              <h1>Aleksandr Zdch</h1>
+              <span>Junior Front-end Developer</span>
+            </header>
+            <article>
+              <h2>What I can do</h2>
+              <section>
+                <h2>Education</h2>
+                <span>Systems engineer BSUIR Minsk</span>
+                <p>2001 - 2006</p>
+              </section>
+              <section>
+                <h2>Skills</h2>
                 <ul>
-                    <li><span>email:</span>alexzdch2007@tut.by</li>
-                    <li><span>social:</span> vk.com/heptohedron</li>
+                  <li>Javascript</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
                 </ul>
+              </section>
+              <h2>Example Code:</h2>
+              <section>
+                <h2>Languages</h2>
+                <p>English - level A2</p>
+              </section>
+              <section>
+                <h2>Experience</h2>
+                <span>System Administrator</span>
+                <p>State enterprise 2007 - Present</p>
+              </section>
+              <section>
+                <h2>My projects</h2>
+                <div class = "my-project">
+                  <div class = "project-img"><a href="https://rolling-scopes-school.github.io/alexzdch-JSFEPRESCHOOL/museum/"  target="_blank"><img src="images/project1.jpg" width="200" height="105" alt="Picture Museum" title="My project Museum"></a></div>
+                  <div class = "project-description">Museum project. Study Project: Page for the Louvre.</div>
                 </div>
-                <h2>My video</h2>
-                <div class = "my-video"><iframe src="https://www.youtube.com/embed/3jT_q7dt-cM" allowfullscreen>
-                </iframe>
-                </div>
-            </div>            
-            <div class="right">
-                <header>
-                    <h1>Aleksandr Zdanovich</h1>
-                    <span>Junior Front-end Developer</span>
-                </header>
-                <main>
-                  <article>
-                      <h2>What I can do</h2>
-                      <section>
-                          <h2>Education</h2>
-                          <span>Systems engineer BSUIR Minsk</span>
-                          <p>2001 - 2006</p>
-                      </section>
-                      <section>
-                          <h2>Skills</h2>
-                         <ul>
-                              <li>Javascript</li>
-                              <li>HTML</li>
-                              <li>CSS</li>
-                          </ul>
-                      </section>
-                      <h2>Example Code:</h2>                  
-                      <pre><code class="language-javascript" style="margin-right: 20px;">
-String.prototype.toJadenCase = function () {
-    return this.split(' ').map( 
-        (item) => { let arr = item.split('');
-        arr[0] = arr[0].toUpperCase();
-        return arr.join(''); }).join(' ');
-    };
-                      </code></pre>                    
-                      <section>
-                          <h2>Languages</h2>
-                          <p>English - level A2</p>
-                      </section>
-                      <section>
-                          <h2>Experience</h2>
-                          <span>System Administrator</span>
-                          <p>State enterprise 2007 - Present</p>
-                      </section>
-                      <section>
-                          <h2>My projects</h2>
-                          <div class = "my-project">
-                              <div class = "project-img"><a href="https://rolling-scopes-school.github.io/alexzdch-JSFEPRESCHOOL/museum/"  target="_blank"><img src="images/project1.jpg" width="200" height="105" alt="Picture Museum" title="My project Museum"></a></div>
-                              <div class = "project-description">Museum project. Study Project: Page for the Louvre.</div>
-                          </div>
-                      </section>
-                  </article>
-                </main>  
-              </div>
+              </section>
+            </article>
           </div>
-        <footer>
-            <a href="https://rs.school/js/"> <img src="images/rs_school_js.svg" alt="RS School" width="50" height="50"></a><br>
-            <a href = "https://github.com/AlexZdch/rsschool-cv/pull/4"> Link git </a>
-            <span>2022</span>
-        </footer>
+        </div>
+      <footer>
+        <a href="https://rs.school/js/"> <img src="images/rs_school_js.svg" alt="RS School" width="50" height="50"></a><br>
+        <a href = "https://github.com/AlexZdch/"> Link git </a>
+        <span>2021</span>
+      </footer>
     </div>
-  </div>
-</body>
+  </body>
 </html>
